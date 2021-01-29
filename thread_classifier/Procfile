@@ -1,1 +1,1 @@
-web: python thread_class_api.py
+web: gunicorn -w 4 thread_class_api:app
